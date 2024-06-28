@@ -4,8 +4,9 @@
 
 ~~~ 
 
-module "eks-module" {
-  source         = "github.com/taiwoj14/eks-modulejune24"
+ module "eksjune24module" {
+  source  = "app.terraform.io/june24-cohort/eksjune24module/aws"
+  version = "1.0.1"
   region         = "Enter your Providers region here"
   vpc_cidr       = "10.0.0.0/16"
   dns_hostnames  = true
