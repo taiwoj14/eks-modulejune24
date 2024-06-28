@@ -1,4 +1,4 @@
-# MY AWESOME TERRAFORM MODULE TO PROVISION EKS CLUSTER WITH CUSTOM NETWORKING  ----->
+# MY AWESOME TERRAFORM MODULE TO PROVISION EKS CLUSTER WITH CUSTOM NETWORKING !!!!!! ----->
 
 # Sample usage:
 
@@ -18,8 +18,8 @@ module "eks-module" {
   az_two         = "Enter your second az"
   vpc_id         = "aws_vpc.eks_vpc.id"
   eks_version    = "1.26"
-  ami_type       = "AL2_x86_64"
-  instance_types = ["t3.small", "t3.medium", "t3.large"]
+  ami_type       = "AL2_x86_64"0
+  instance_types = ["m5.large", "m5.large", "m5.large"]
   capacity_type  = "ON_DEMAND"
 
 }
